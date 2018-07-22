@@ -29,7 +29,8 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-    "nwb": "0.22.x"
+    "nwb": "0.22.x",
+    "webpack": "^4.16.1"
   },
   "author": "Viktor Liegostaiev",
   "homepage": "https://vikliegostaiev.github.io/react-page-scroller/",

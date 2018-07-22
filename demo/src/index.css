@@ -9,26 +9,32 @@ html, body {
     height: 100%;
     width: 100%;
     display: flex;
-}
 
-.component.first-component {
+     /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: gray;
 }
 
+.component.first-component {
+     background-image: url("../pics/flamingo.jpg");
+}
+
 .component.second-component {
-    background-color: red;
+    background-image: url("../pics/basil.jpg");
 }
 
 .component.third-component {
-    background-color: blue;
+    background-image: url("../pics/bee.jpg");
 }
 
 .component.fourth-component {
-    background-color: yellow;
+    background-image: url("../pics/pier.jpg");
 }
 
 .component.fifth-component {
-    background-color: purple;
+    background-image: url("../pics/mount.jpg");
 }
 
 h2 {
